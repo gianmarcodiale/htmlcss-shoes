@@ -6,7 +6,7 @@
 
 h2{
     font-family: 'Rubik', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -19,10 +19,13 @@ h2{
 }
 
 .photo-text{
+    width: 700px;
     position: absolute;
+    text-align: center;
     left: 50%;
-    top: 80%;
+    top: 85%;
     transform: translate(-50%, -50%);
+    color: yellow;
 }
 
 #superga{
@@ -38,4 +41,8 @@ h2{
 #converse{
     background-image: url('../img/03.png');
     background-color: yellow;
+}
+
+#green{
+    color: green;
 }

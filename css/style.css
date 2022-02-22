@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    height: 100vh;
+}
+
+.blocks{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.blocks h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#superga{
+    background-image: url('../img/01.png');
+    height: 100%;
+    background-color: red;
+}
+
+#tommy{
+    background-image: url(../img/02.png);
+    height: 100%;
+    background-color: green;
+}
+
+#converse{
+    background-image: url(../img/03.png);
+    height: 100%;
+    background-color: yellow;
+}
+

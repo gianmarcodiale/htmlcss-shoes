@@ -4,38 +4,38 @@
     box-sizing: border-box;
 }
 
-.container{
-    height: 100vh;
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .blocks{
-    position: relative;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: 600px;
+    position: relative;
 }
 
-.blocks h2{
+.photo-text{
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
 }
 
 #superga{
     background-image: url('../img/01.png');
-    height: 100%;
     background-color: red;
 }
 
 #tommy{
-    background-image: url(../img/02.png);
-    height: 100%;
+    background-image: url('../img/02.png');
     background-color: green;
 }
 
 #converse{
-    background-image: url(../img/03.png);
-    height: 100%;
+    background-image: url('../img/03.png');
     background-color: yellow;
 }
-
